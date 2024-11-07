@@ -6,7 +6,7 @@ public class tournetourne : MonoBehaviour
 {
     void Update()
     {
-        transform.eulerAngles += Vector3.up * -MultiplyByTwo(3.5f) * Time.deltaTime;
+        transform.eulerAngles += Vector3.up * -MultiplyByTwo(3f) * Time.deltaTime;
 
         //Ouaai jutilise des valeurs en dur ouai jsuis un malade moi jsuis un fou malade
     }
